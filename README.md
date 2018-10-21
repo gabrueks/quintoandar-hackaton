@@ -1,0 +1,1 @@
+O projeto tem como intuito revolucionar o jeito que as pessoas que possuem apartamento próprio veem o mundo dos alugueis. Por meio de trocas de apartamentos por tempo curto, as pessoas podem ter experiências diferenciadas e inovadoras para que possam aproveitar a vida de um jeito melhor.
