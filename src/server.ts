@@ -11,6 +11,6 @@ app.listen(PORT, async () => {
         { useNewUrlParser: true},
     )
     .catch((err) => {
-        console.error('App crash');
+        throw err;
     });
 });
