@@ -1,6 +1,7 @@
 import { IResidence } from '../Interfaces/Residence.interface';
 
 import { residenceModel } from '../Models/ResidenceSchema';
+import { residenceConfirmationModel } from '../Models/ResidenceConfirmationSchema';
 
 export class Residence {
 
@@ -27,5 +28,11 @@ export class Residence {
             _id: residenceID
         });
         return consultedResidence;
+    }
+
+    async residenceConfirmation(residenceConfirmation: any) {
+        const newResidenteConfirmation = new residenceConfirmationModel(residenceConfirmation);
+        newResidenteConfirmation.save();
+        return true;
     }
 }
